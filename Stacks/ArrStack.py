@@ -27,4 +27,3 @@ class ArrStack:
 
     def printStack(self):
         print(self.stack)
-        
