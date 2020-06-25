@@ -27,24 +27,4 @@ class Queue:
     
     def queueSize(self):
         return self.qsize
-
-    def printQ(self):
-        self.temp = self.start
-        while self.temp != None:
-            print(self.temp.value)
-            self.temp = self.temp.next
-
-
-q = Queue()
-q.enqueue('A')
-q.enqueue('B')
-q.enqueue('C')
-q.enqueue('D')
-q.enqueue('E')
-q.enqueue('F')
-q.dequeue()
-q.dequeue()
-q.enqueue('K')
-q.dequeue()
-q.dequeue()
-q.printQ()
+    
