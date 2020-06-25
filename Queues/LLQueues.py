@@ -21,10 +21,9 @@ class Queue:
             self.qsize += 1
                    
     def dequeue(self):
-        self.temp = self.start.next
+        self.temp = self.start.next #self.start = self.start.next 
         self.start = self.temp
         self.qsize -= 1
     
     def queueSize(self):
         return self.qsize
-    
